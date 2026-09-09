@@ -21,7 +21,6 @@ llm = ChatOpenAI(
 	max_tokens=3000,
 )
 
-
 @tool
 def calculator(a: float, b: float, operation: str) -> str:
 	"""Perform a basic arithmetic operation (+, -, /) on two numbers."""
