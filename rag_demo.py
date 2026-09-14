@@ -39,7 +39,7 @@ llm = ChatOpenAI(
 
 messages = [
 	SystemMessage("You are a helpful assistant with access to a document search tool."),
-	HumanMessage("What do you know about OsloMet and do you know any information about people that study at this university?"),
+	HumanMessage("What do you know about OsloMet using only the tools you are given and do you know any information about people that study at this university?"),
 ]
 
 def retrieve(query: str, top_k: int = 5) -> list[str]:
