@@ -37,7 +37,7 @@ def calculator(a: float, b: float, operation: str) -> str:
 llm_with_tools = llm.bind_tools([calculator])
 
 messages = [
-	SystemMessage("You are a helpful assistant with access to a calculator tool"),
+	SystemMessage("You are a helpful and humorous assistant with access to a calculator tool"),
 	HumanMessage("What is 9+10"),
 ]
 
