@@ -6,4 +6,6 @@ So far this demo has examples of how to:
 
 - Connect to an agent
 - RAG demo using a list to simulate PDFs
+- Vector database example
 - Tools demo showing how to create tools the LLM can use
+
