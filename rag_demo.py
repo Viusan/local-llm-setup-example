@@ -1,4 +1,4 @@
-#i am creating a demo to showcase rag.
+#i am creating a demo to showcase RAG.
 #in reality we would have PDF papers but here i am just going to use a list to simulate a documents
 
 import os
